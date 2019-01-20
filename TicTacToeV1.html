@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<h1><h1 style="color:#A80000 ;">Welcome To Tic Tac Toe!</h1>
+<h2><h2 style="color:#A80000 ;">Player One- Please Pick a Button</h2>
+
+<head>
+	  <link rel="stylesheet" href="css/tictactoe.css">
+</head>
+<body>
+    <button id="one" style="width: 60px; height: 60px;" ></button>
+    <button id="two" style="width: 60px; height: 60px;"></button>
+    <button id="three" style="width: 60px; height: 60px;"></button>
+    <br>
+    <button id="four" style="width: 60px; height: 60px;"></button>
+    <button id="five" style="width: 60px; height: 60px;"></button>
+    <button id="six" style="width: 60px; height: 60px;"></button>
+    <br>
+    <button id="seven" style="width: 60px; height: 60px;"></button>
+    <button id="eight" style="width: 60px; height: 60px;"></button>
+    <button id="nine" style="width: 60px; height: 60px;"></button>
+<style>
+
+</style>
+    <script>
+        <!-- need to switch to player2-->
+     <!--need to declare var sqr1-9 and assign to button-->
+
+        oneButton = document.getElementById('one');
+        console.log(oneButton);
+        oneButton.onclick = function() {
+            oneButton.innerHTML = 'X';
+            oneButton.disabled = true;
+        }
+
+        twoButton = document.getElementById('two');
+		        console.log(twoButton);
+		        twoButton.onclick = function() {
+		            twoButton.innerHTML = 'O';
+		            twoButton.disabled = true;
+        }
+        threeButton = document.getElementById('three');
+		        console.log(threeButton);
+		        threeButton.onclick = function() {
+		            threeButton.innerHTML = 'X';
+		            threeButton.disabled = true;
+        }
+        fourButton = document.getElementById('four');
+		        console.log(fourButton);
+		        fourButton.onclick = function() {
+		            fourButton.innerHTML = 'X';
+		            fourButton.disabled = true;
+        }
+        fiveButton = document.getElementById('five');
+		        console.log(fiveButton);
+		        fiveButton.onclick = function() {
+		            fiveButton.innerHTML = 'X';
+		            fiveButton.disabled = true;
+        }
+        sixButton = document.getElementById('six');
+		        console.log(sixButton);
+		        sixButton.onclick = function() {
+		            sixButton.innerHTML = 'X';
+		            sixButton.disabled = true;
+        }
+        sevenButton = document.getElementById('seven');
+		        console.log(sevenButton);
+		        sevenButton.onclick = function() {
+		            sevenButton.innerHTML = 'X';
+		            sevenButton.disabled = true;
+        }
+        eightButton = document.getElementById('eight');
+		        console.log(eightButton);
+		        eightButton.onclick = function() {
+		            eightButton.innerHTML = 'X';
+		            eightButton.disabled = true;
+        }
+        nineButton = document.getElementById('nine');
+				        console.log(nineButton);
+				        nineButton.onclick = function() {
+				            nineButton.innerHTML = 'X';
+				            nineButton.disabled = true;
+        }
+
+    </script>
+    <footer>
+	     <p>Program Developed by Matt Boyer</p>
+	     <p>Contact information: <a href="mailto:matt.boyer@go.clcmn.edu">matt.boyer@go.clcmn.edu</a>.</p>
+</footer>
+</body>
+</html>
